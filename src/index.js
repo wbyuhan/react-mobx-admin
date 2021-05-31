@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '@/pages/App';
+import Router from '@/router/index.tsx'
 ReactDOM.render(
     <React.StrictMode>
-      {<App />}
+      <Router />
     </React.StrictMode>,
     document.getElementById('root'),    
 );

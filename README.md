@@ -23,4 +23,8 @@ store|状态管理
 util|工具函数
 src/index|入口文件
 
+## 路由配置
+
+在router/router.ts 文件下面配置路由，目前只能配置单路由，不支持嵌套路由
+
 

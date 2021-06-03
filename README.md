@@ -27,4 +27,8 @@ src/index|入口文件
 
 在router/router.ts 文件下面配置路由，目前只能配置单路由，不支持嵌套路由
 
+## mobx 状态管理
+
+页面的状态我们称之为PageStore,PageStore的配置在store/modules下建立新的文件,文件名就是组件引入状态的末inject的参数，参考Home/index.tsx 页面
+
 

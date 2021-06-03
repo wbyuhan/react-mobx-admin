@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense,FC } from "react";
 import {
   BrowserRouter,
   Route,
@@ -14,7 +14,7 @@ interface Access extends RouteProps {
 }
 
 // 因为嵌套路由需要操作子组件，待更新
-const AppRouter: React.FC<Access> = () => {
+const AppRouter: FC<Access> = () => {
   const routers = routerRender(router);
   return (
     <BrowserRouter>
